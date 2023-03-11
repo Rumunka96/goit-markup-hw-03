@@ -58,10 +58,10 @@ header {
 .footer {
     background-color: var(--main-font-color);
 }
-.footer > a > span {
+.footer > .container > a > span {
     color: #f4f4fd;
 }
-.footer > p {
+.footer p {
     color: #F4F4FD;
     letter-spacing: 0.02em;
 }
@@ -91,6 +91,8 @@ a {
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
+    margin: 0;
+    padding: 188px 0 48px;
 }
 .banner-btn {
     font-family: "Roboto", sans-serif;

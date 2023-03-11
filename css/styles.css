@@ -111,7 +111,7 @@ a {
     margin: 0 24px 0 0;
 }
 .section {
-    margin: 120px 0;
+    padding: 120px 0 0;
 }
 .main-h {
     font-weight: 500;

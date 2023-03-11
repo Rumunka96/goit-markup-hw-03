@@ -19,6 +19,10 @@ header {
     max-width: 1158px;
     margin: 0 auto;
 }
+header > .container {
+    display: flex;
+    justify-content: space-between;
+}
 .site-logotype {
     font-family: "Raleway", sans-serif;
     font-weight: 800;

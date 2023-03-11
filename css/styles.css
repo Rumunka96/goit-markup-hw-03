@@ -108,6 +108,9 @@ a {
 .flex-box {
     display: inline-flex;
 }
+.flex-box > li {
+    margin: 0 24px 0 0;
+}
 .main-h {
     font-weight: 500;
     font-size: 20px;
@@ -118,6 +121,7 @@ a {
 }
 .main-p {
     letter-spacing: 0.02em;
+    margin: 8px 0 0 0;
 }
 .main-title {
     font-size: 36px;

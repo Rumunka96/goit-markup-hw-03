@@ -131,6 +131,7 @@ a {
     text-transform: capitalize;
     color: var(--main-font-color);
     width: 100%;
+    margin: 120px 0 72px;
 }
 .our-team {
     background: #F4F4FD;

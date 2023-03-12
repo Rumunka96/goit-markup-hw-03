@@ -100,9 +100,6 @@ ul {
     padding: 0;
     margin: 0;
 }
-ul.list > li:last-child() {
-    margin: 0;
-}
 a {
     text-decoration: none;
     color: inherit;
@@ -137,6 +134,12 @@ a {
 }
 .flex-box > li {
     margin: 0 24px 0 0;
+}
+.flex-box > li:last-child() {
+    margin: 0;
+}
+.flex-box>li:last-of-type {
+    margin: 0;
 }
 .section {
     padding: 120px 0;

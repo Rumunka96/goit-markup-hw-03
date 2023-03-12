@@ -100,7 +100,7 @@ ul {
     padding: 0;
     margin: 0;
 }
-ul.list:last-child() {
+ul.list > li:last-child() {
     margin: 0;
 }
 a {

@@ -229,6 +229,7 @@ p {
 }
 .work-list > li {
     border: 1px solid #E7E9FC;
+    margin: 0 24px 48px 0;
 }
 .work-list > a {
     border: 1px solid #E7E9FC;
@@ -236,20 +237,15 @@ p {
     margin-bottom: 48px;
     padding-bottom: 32px;
 }
-.work-list > li > a > img {
-    margin-bottom: 32px;
-}
-.work-list > li > a > div > .work-list-p {
-    margin: 0;
-    padding-left: 16px;
-}
 .work-list > li > a > div > .work-list-title {
     margin: 0 0 8px 0;
-    padding-left: 16px;
 }
 .work-list-p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+}
+.section-portfolio {
+    padding-bottom: 0;
 }
 /* Profile page css end */

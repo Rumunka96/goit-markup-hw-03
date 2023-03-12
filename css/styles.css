@@ -135,9 +135,6 @@ a {
 .flex-box > li {
     margin: 0 24px 0 0;
 }
-.flex-box > li:last-child() {
-    margin: 0;
-}
 .flex-box>li:last-of-type {
     margin: 0;
 }
@@ -178,7 +175,8 @@ a {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
 }
-.our-team > .container > ul > li > div {
+.our-team > .container > ul > li > div,
+.work-list > li > a > div {
     padding: 32px 16px;
 }
 /* Index page css end*/
@@ -229,6 +227,9 @@ p {
     align-items: center;
     flex-wrap: wrap;
 }
+.work-list > li {
+    border: 1px solid #E7E9FC;
+}
 .work-list > a {
     border: 1px solid #E7E9FC;
     margin-right: 24px;
@@ -238,11 +239,11 @@ p {
 .work-list > li > a > img {
     margin-bottom: 32px;
 }
-.work-list > li > a > .work-list-p {
+.work-list > li > a > div > .work-list-p {
     margin: 0;
     padding-left: 16px;
 }
-.work-list > li > a > .work-list-title {
+.work-list > li > a > div > .work-list-title {
     margin: 0 0 8px 0;
     padding-left: 16px;
 }

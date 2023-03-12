@@ -197,7 +197,6 @@ a {
     text-align: center;
     border: 1px solid #E7E9FC;
     border-radius: 4px;
-    margin-right: 24px;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -228,10 +227,6 @@ p {
     align-items: center;
     flex-wrap: wrap;
     gap: 48px 24px;
-}
-.work-list > li {
-    border: 1px solid #E7E9FC;
-    margin: 0 24px 48px 0;
 }
 .work-list > a {
     border: 1px solid #E7E9FC;

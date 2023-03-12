@@ -135,7 +135,7 @@ a {
 .flex-box > li {
     margin: 0 24px 0 0;
 }
-.flex-box>li:last-of-type {
+.flex-box > li:last-of-type {
     margin: 0;
 }
 .section {
@@ -183,7 +183,7 @@ a {
 
 /* Profile page */
 .button-filter-list {
-    margin: 96px 0 72px;
+    margin: 0 0 72px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -209,6 +209,7 @@ a {
 .button-filter-list > li > .btn-filter:focus {
     background: #404BBF;
     color: #fff;
+    border-color: transparent;
 }
 p {
     color: #434455;
@@ -226,6 +227,7 @@ p {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    gap: 48px 24px;
 }
 .work-list > li {
     border: 1px solid #E7E9FC;
@@ -240,12 +242,16 @@ p {
 .work-list > li > a > div > .work-list-title {
     margin: 0 0 8px 0;
 }
+.work-list > li > a > div {
+    border: 1px solid #E7E9FC;
+    border-top: none;
+}
 .work-list-p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
 .section-portfolio {
-    padding-bottom: 0;
+    padding: 96px 0 120px;
 }
 /* Profile page css end */

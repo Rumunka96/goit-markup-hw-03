@@ -13,6 +13,11 @@ body {
 h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
 header {
     border-bottom: 1px solid #E7E9FC;
     padding: 24px 0;
@@ -95,7 +100,7 @@ ul {
     padding: 0;
     margin: 0;
 }
-ul > li:nth-last-of-type() {
+.list:nth-last-child() {
     margin: 0;
 }
 a {
@@ -134,7 +139,7 @@ a {
     margin: 0 24px 0 0;
 }
 .section {
-    padding: 120px 0 0;
+    padding: 120px 0;
 }
 .main-h {
     font-weight: 500;
@@ -162,8 +167,6 @@ a {
 }
 .our-team {
     background: #F4F4FD;
-    display: flex;
-    flex-wrap: wrap;
 }
 .our-team > .container > ul > li {
     background: #fff;
@@ -171,6 +174,9 @@ a {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
+}
+.our-team > .container > ul > li > div {
+    padding: 32px 16px;
 }
 /* Index page css end*/
 

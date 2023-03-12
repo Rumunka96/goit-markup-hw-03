@@ -106,12 +106,13 @@ a {
     padding: 188px 0;
 }
 .banner-title {
+    width: 496px;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
-    margin: 0 0 48px;
+    margin: 0 auto 48px;
 }
 .banner-btn {
     font-family: "Roboto", sans-serif;
